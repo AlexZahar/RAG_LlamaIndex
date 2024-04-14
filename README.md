@@ -49,3 +49,6 @@ load_dotenv()  # This loads the variables from .env into the environment
 # Now you can use os.getenv to access your variables
 api_key = os.getenv("OPENAI_API_KEY")   
 ```
+
+### Miro Link
+[Link to Miro Board](https://miro.com/app/board/uXjVKUpZ0cE=/?moveToWidget=3458764585541176896&cot=14)
