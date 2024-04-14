@@ -16,7 +16,7 @@ To create and activate a Conda environment with all necessary dependencies, foll
    ```bash
    git clone https://github.com/AlexZahar/RAG_LlamaIndex.git
    cd RAG_LlamaIndex
-   conda env create -f environment.yml -n llamaIndex
+   conda env create -f environment.yml -n llamaIndex python=3.10
    ```
    
 3. **Activate the Environment**:
