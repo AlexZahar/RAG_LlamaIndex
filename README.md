@@ -3,9 +3,31 @@ Basic RAG implementation using LlamaIndex
 
 ## Setup Instructions
 
-### Dependencies
+### Conda Environment
 
-To install required dependencies, run the following command:
+To create and activate a Conda environment with all necessary dependencies, follow these steps:
+
+1. **Ensure Conda is Installed**: 
+   Make sure that [Anaconda](https://www.anaconda.com/products/distribution) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) is installed on your system.
+
+2. **Create the Environment**:
+   Clone the repository and create the environment using the `environment.yml` file provided:
+
+   ```bash
+   git clone https://github.com/AlexZahar/RAG_LlamaIndex.git
+   cd RAG_LlamaIndex
+   conda env create -f environment.yml -n llamaIndex
+   ```
+   
+3. **Activate the Environment**:
+    Activate the Conda environment to start using it:
+    
+    ```bash
+    conda activate llamaIndex
+    ```
+   
+### Dependencies
+If you are not using Conda, install the required dependencies with pip:
 
 ```bash
 pip install -r requirements.txt
